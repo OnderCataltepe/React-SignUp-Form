@@ -1,0 +1,111 @@
+.formDiv {
+  width: 100%;
+}
+.formDiv h1 {
+  margin-bottom: 2rem;
+  letter-spacing: 0.1rem;
+  word-spacing: 0.2rem;
+  color: #eb8b88;
+  font-weight: bold;
+  font-size: 3rem;
+}
+.col {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: 1rem;
+  height: 6rem;
+}
+
+.col label {
+  font-size: 1.6rem;
+  font-weight: bold;
+  color: #494949;
+}
+.col input {
+  width: 100%;
+  font-size: 1.6rem;
+  padding: 0.2rem 1rem;
+  border-radius: 0.5rem;
+  border: 0.1rem solid #a1a1a1;
+  outline: #8fb1c2;
+}
+.formDiv a {
+  text-decoration: none;
+}
+
+.checkCol {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: 1rem;
+  height: 4rem;
+}
+
+.checkCol div {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  margin-top: 1rem;
+}
+.checkCol > div label {
+  font-size: 1.2rem;
+  margin-left: 0.6rem;
+  line-height: 1.2rem;
+}
+
+.formDiv button {
+  margin: 1rem auto;
+  padding: 0.5rem 2rem;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.7s;
+  background-size: 200% auto;
+  color: white;
+  border-radius: 1rem;
+  display: block;
+  border: 0px;
+  font-size: 1.6rem;
+  font-weight: 700;
+  box-shadow: 0 0 1.4rem -0.7rem #f09819;
+  background-image: linear-gradient(
+    45deg,
+    #ff512f 0%,
+    #f09819 51%,
+    #ff512f 100%
+  );
+  cursor: pointer;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.formDiv button:hover {
+  background-position: right center;
+  color: #fff;
+  text-decoration: none;
+}
+
+.formDiv button:active {
+  transform: scale(0.95);
+}
+
+.errorMessages {
+  color: red;
+}
+
+.successContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.successContainer p:nth-child(2) {
+  font-size: 4rem;
+  font-weight: bold;
+  letter-spacing: 0.1rem;
+}
+.successContainer p:nth-child(3) {
+  font-size: 2rem;
+}
